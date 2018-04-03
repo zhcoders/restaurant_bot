@@ -1,0 +1,813 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "我要订餐",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "订餐",
+            "entity": "item"
+          }
+        ]
+      },
+      {
+        "text": "山东",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "山东",
+            "entity": "city"
+          }
+        ]
+      },
+      {
+        "text": "安徽",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "安徽",
+            "entity": "city"
+          }
+        ]
+      },
+      {
+        "text": "重庆",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "重庆",
+            "entity": "city"
+          }
+        ]
+      },
+      {
+        "text": "甘肃",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "甘肃",
+            "entity": "city"
+          
+        ]
+      },
+      {
+        "text": "山西",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "山西",
+            "entity": "city"
+          }
+        ]
+      },
+      {
+        "text": "北京",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "北京",
+            "entity": "city"
+          }
+        ]
+      },
+      {
+        "text": "河北",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "河北",
+            "entity": "city"
+          }
+        ]
+      },
+      {
+        "text": "黑龙江",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "黑龙江",
+            "entity": "city"
+          }
+        ]
+      },
+      {
+        "text": "云南",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "云南",
+            "entity": "city"
+          }
+        ]
+      },
+      {
+        "text": "江西",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "江西",
+            "entity": "city"
+          }
+        ]
+      },
+      {
+        "text": "青岛",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "青岛",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "石家庄",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "石家庄",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "唐山",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "唐山",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "太原",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "青岛",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "太原",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "青岛",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "沈阳",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "沈阳",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "长春",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "长春",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "南京",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "南京",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "武汉",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "武汉",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "广州",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "广州",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "成都",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "成都",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "西安",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "西安",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "杭州",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "杭州",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "贵阳",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "贵阳",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "昆明",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "昆明",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "长沙",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "长沙",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "郑州",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "郑州",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "苏州",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "苏州",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "厦门",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "厦门",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "湘潭",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "湘潭",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "深圳",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "深圳",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "南宁",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "南宁",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "承德",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "承德",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "扬州",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "扬州",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "嘉兴",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "嘉兴",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "九江",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "九江",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "珠海",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "珠海",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "桂林",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "桂林",
+            "entity": "region"
+          }
+        ]
+      },
+      {
+        "text": "火锅",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "火锅",
+            "entity": "category"
+          }
+        ]
+      },
+      {
+        "text": "自助餐",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "自助餐",
+            "entity": "category"
+          }
+        ]
+      },
+      {
+        "text": "西餐",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "西餐",
+            "entity": "category"
+          }
+        ]
+      },
+      {
+        "text": "海鲜",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "海鲜",
+            "entity": "category"
+          }
+        ]
+      },
+      {
+        "text": "东北菜",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "东北菜",
+            "entity": "category"
+          }
+        ]
+      },
+      {
+        "text": "云贵菜",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "云贵菜",
+            "entity": "category"
+          }
+        ]
+      },
+      {
+        "text": "素食",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "素食",
+            "entity": "category"
+          }
+        ]
+      },
+      {
+        "text": "你好",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "您好",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "您好吗",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "嗨",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "你是谁",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "您是",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "你是哪个",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "喂",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "再见",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "拜拜",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "很高兴和你说话",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "嗯",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "好的",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "行",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "可以的",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "恩",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "中中",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "中",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "办吧",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "办理吧",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "行的",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "没问题",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "谢谢",
+        "intent": "thanks",
+        "entities": []
+      },
+      {
+        "text": "谢谢您",
+        "intent": "thanks",
+        "entities": []
+      },
+      {
+        "text": "谢谢你",
+        "intent": "thanks",
+        "entities": []
+      },
+      {
+        "text": "非常感谢",
+        "intent": "thanks",
+        "entities": []
+      },
+      {
+        "text": "谢谢啊",
+        "intent": "thanks",
+        "entities": []
+      },
+      {
+        "text": "谢了",
+        "intent": "thanks",
+        "entities": []
+      },
+      {
+        "text": "不要",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "不需要",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "不要办",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "不办",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "暂时不要了",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "不是",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "有问题",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "我再考虑考虑",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "不好啦",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "不行",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "不可以的",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "不中",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "不可以",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "没了",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "没有了",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "不用了",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "暂时不用了",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "好的没了",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "好不用了",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "=",
+        "intent": "unknown_intent",
+        "entities": []
+      },
+      {
+        "text": "&",
+        "intent": "unknown_intent",
+        "entities": []
+      },
+      {
+        "text": "吃饭",
+        "intent": "unknown_intent",
+        "entities": []
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": [{
+        "value": "消费",
+        "synonyms": ["话费", "钱"]
+      }]
+  }
+}

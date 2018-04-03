@@ -1,0 +1,62 @@
+slots: #存储用户设定
+  item: #订餐服务
+    type: text
+  city: #城市，例如上海
+    type: text
+  region: #地区 例如长宁区
+    type: text
+  category: #种类 例如火锅
+    type: text   
+  matches: #stores the matching restaurants returned by an API
+    type: unfeaturized
+
+entities: #are closely related to slots
+  - item
+  - city
+  - region
+  - category
+
+#Slots are updated over time, and entities are the raw information that's picked up from user messages
+
+intents: #action
+  - greet
+  - affirm
+  - deny
+  - inform
+  - thankyou
+  - request_search
+
+templates: #模板语言，模拟自然语言处理
+  utter_greet:
+    - "您好!很高兴为您服务。"
+    - "hi!有什么可以帮您吗? "
+  utter_goodbye:
+    - "再见，为您服务很开心"
+    - "Bye，下次再见"
+  utter_default:
+    - "您说什么"
+    - "您能再说一遍吗，我没听清"
+  utter_thanks:
+    - "不用谢"
+  utter_ask_morehelp:
+    - "还有什么能帮您的？"
+  utter_ask_city:
+    - "你想订哪个城市的餐厅呢？"
+  utter_ask_region:
+    - "你想订哪个地区的餐厅呢？"
+  utter_ask_category:
+    - "你喜欢吃什么类型的菜呢？"
+  utter_ack_management:
+    - "为您找到下列餐厅:{matches}"
+
+actions:
+- utter_greet
+- utter_goodbye
+- utter_default
+- utter_thanks
+- utter_ask_morehelp
+- utter_ask_city
+- utter_ask_region
+- utter_ask_category
+- utter_ack_management
+- bot.ActionSearchRestaurants

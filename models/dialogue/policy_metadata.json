@@ -1,0 +1,25 @@
+{
+  "rasa_core": "0.8.5",
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "action_fingerprints": {
+    "null": {
+      "slots": [
+        "category",
+        "city"
+      ]
+    },
+    "action_listen": {
+      "slots": [
+        "category",
+        "item",
+        "region",
+        "city"
+      ]
+    }
+  },
+  "policy_names": [
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "policy.RestaurantPolicy"
+  ],
+  "max_history": 2
+}

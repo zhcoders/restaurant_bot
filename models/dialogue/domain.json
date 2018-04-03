@@ -1,0 +1,30 @@
+{
+  "features": [
+    "intent_greet",
+    "intent_affirm",
+    "intent_deny",
+    "intent_inform",
+    "intent_thankyou",
+    "intent_request_search",
+    "entity_item",
+    "entity_city",
+    "entity_region",
+    "entity_category",
+    "slot_category_0",
+    "slot_city_0",
+    "slot_item_0",
+    "slot_region_0",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_utter_greet",
+    "prev_utter_goodbye",
+    "prev_utter_default",
+    "prev_utter_thanks",
+    "prev_utter_ask_morehelp",
+    "prev_utter_ask_city",
+    "prev_utter_ask_region",
+    "prev_utter_ask_category",
+    "prev_utter_ack_management",
+    "prev_action_search_restaurants"
+  ]
+}

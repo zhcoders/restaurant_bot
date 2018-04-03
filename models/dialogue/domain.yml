@@ -1,0 +1,76 @@
+action_factory: null
+action_names:
+- utter_greet
+- utter_goodbye
+- utter_default
+- utter_thanks
+- utter_ask_morehelp
+- utter_ask_city
+- utter_ask_region
+- utter_ask_category
+- utter_ack_management
+- action_search_restaurants
+actions:
+- utter_greet
+- utter_goodbye
+- utter_default
+- utter_thanks
+- utter_ask_morehelp
+- utter_ask_city
+- utter_ask_region
+- utter_ask_category
+- utter_ack_management
+- bot.ActionSearchRestaurants
+config:
+  store_entities_as_slots: true
+entities:
+- item
+- city
+- region
+- category
+intents:
+- greet
+- affirm
+- deny
+- inform
+- thankyou
+- request_search
+slots:
+  category:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  city:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  item:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  matches:
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  region:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_ack_management:
+  - text: 为您找到下列餐厅:{matches}
+  utter_ask_category:
+  - text: 你喜欢吃什么类型的菜呢？
+  utter_ask_city:
+  - text: 你想订哪个城市的餐厅呢？
+  utter_ask_morehelp:
+  - text: 还有什么能帮您的？
+  utter_ask_region:
+  - text: 你想订哪个地区的餐厅呢？
+  utter_default:
+  - text: 您说什么
+  - text: 您能再说一遍吗，我没听清
+  utter_goodbye:
+  - text: 再见，为您服务很开心
+  - text: Bye，下次再见
+  utter_greet:
+  - text: 您好!很高兴为您服务。
+  - text: 'hi!有什么可以帮您吗? '
+  utter_thanks:
+  - text: 不用谢
+topics: []
